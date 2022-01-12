@@ -13,13 +13,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xf</groupId>
-    <artifactId>xf-utils</artifactId>
+    <artifactId>xf-tools-springboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>xf-utils</name>
     <description>Spring Boot 小工具demo集合</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
+
+    <modules>
+        <module>jwt-user</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
